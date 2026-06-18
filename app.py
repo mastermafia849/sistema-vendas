@@ -8,7 +8,8 @@ usuarios = {
     "abner": "Guara@vendas2026",
     "samuel": "Guara@vendas2026",
     "thiago": "Guara@vendas2026",
-    "eduardo": "Guara@vendas2026"
+    "eduardo": "Guara@vendas2026",
+    "ana": "Guara@vendas2026"
 }
 
 @app.route("/")
