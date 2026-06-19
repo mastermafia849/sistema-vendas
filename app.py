@@ -76,7 +76,7 @@ def dashboard():
 
     user = session["user"]
 
-    # Banco de links do Power BI atualizado (Link do Abner adicionado abaixo)
+    # Banco de links do Power BI atualizado (Link do Thiago adicionado abaixo)
     dashboards = {
         "loja": "https://app.powerbi.com/reportEmbed?reportId=c39f0524-5134-44b1-8ba5-9599b3f1cdc2&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b",
         
@@ -84,7 +84,9 @@ def dashboard():
         
         "eduardo": "https://app.powerbi.com/reportEmbed?reportId=a07dc1bf-7609-4ec8-97cd-a0e4c7c819e0&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b",
         
-        "abner": "https://app.powerbi.com/reportEmbed?reportId=039c1e45-17c1-4d20-a1ae-6893ee43731c&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b"
+        "abner": "https://app.powerbi.com/reportEmbed?reportId=039c1e45-17c1-4d20-a1ae-6893ee43731c&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b",
+        
+        "thiago": "https://app.powerbi.com/reportEmbed?reportId=7bac3d77-104d-48c9-9e36-4c1d9d98028e&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b"
     }
 
     if user in dashboards:
@@ -108,7 +110,7 @@ def dashboard():
         </html>
         """
 
-    # Caso o usuário exista mas ainda não tenha um link cadastrado acima (ex: samuel, thiago)
+    # Caso o usuário exista mas ainda não tenha um link cadastrado acima (ex: samuel)
     return f"""
     <div style="text-align:center; margin-top:100px; font-family: Arial, sans-serif;">
         <h3>Olá {user.capitalize()}, seu relatório ainda está sendo preparado.</h3>
