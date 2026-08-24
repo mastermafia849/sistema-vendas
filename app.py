@@ -12,7 +12,7 @@ usuarios = {
     "ana": "Guara@vendas2026"
 }
 
-link_loja = "https://app.powerbi.com/groups/me/reports/f2ee6213-1533-410c-8ceb-f30bbafad857"
+link_loja = "https://app.powerbi.com/groups/me/reports/f2ee6213-1533-410c-8ceb-f30bbafad857?chromeless=true"
 link_vendedores = "https://app.powerbi.com/links/PsAlAMGCDf?ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b&pbi_source=linkShare"
 
 @app.route("/")
