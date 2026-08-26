@@ -12,7 +12,7 @@ usuarios = {
     "ana": "Guara@vendas2026"
 }
 
-link_loja = "https://app.powerbi.com/reportEmbed?reportId=f2ee6213-1533-410c-8ceb-f30bbafad857&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b"
+link_loja = "https://app.powerbi.com/reportEmbed?reportId=45722072-420a-401b-a23e-abd3bc2c6f1a&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b"
 link_vendedores = "https://app.powerbi.com/links/PsAlAMGCDf?ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b&pbi_source=linkShare"
 
 @app.route("/")
@@ -49,7 +49,7 @@ def login():
 def dashboard():
     if "user" not in session: 
         return redirect("/")
-    
+     
     user = session["user"]
     url_painel = link_loja if user == "loja" else link_vendedores
     nome_perfil = "Gerencial (Loja)" if user == "loja" else user.capitalize()
