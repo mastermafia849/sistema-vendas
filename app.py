@@ -18,7 +18,7 @@ links_paineis = {
     "rhayssa": "https://app.powerbi.com/reportEmbed?reportId=cfb7cc32-61fd-4422-a0dd-b9cd034276ca&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b",
     "marcus": "https://app.powerbi.com/reportEmbed?reportId=6954fefd-ee4e-499a-8278-299d5d148eca&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b",
     "samuel": "https://app.powerbi.com/reportEmbed?reportId=b1ed3c24-a20e-440e-831f-1fb90bada28c&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b",
-    "eduardo": "https://app.powerbi.com/reportEmbed?reportId=3e45810d-d4ed-4b0d-949e-96a61ef8f237&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b",
+    "maykon": "https://app.powerbi.com/reportEmbed?reportId=3e45810d-d4ed-4b0d-949e-96a61ef8f237&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b",
 
 
 }
