@@ -9,7 +9,7 @@ usuarios = {
     "rhayssa": "Guara@vendas2026",
     "samuel": "Guara@vendas2026",
     "marcus": "Guara@vendas2026",
-    "eduardo": "Guara@vendas2026"
+    "maykon": "Guara@vendas2026"
 }
 
 # Dicionário mapeando o link específico de cada usuário
