@@ -15,7 +15,7 @@ usuarios = {
 # Dicionário mapeando o link específico de cada usuário
 links_paineis = {
     "loja": "https://app.powerbi.com/reportEmbed?reportId=45722072-420a-401b-a23e-abd3bc2c6f1a&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b",
-    "rhayssa": "https://app.powerbi.com/reportEmbed?reportId=cfb7cc32-61fd-4422-a0dd-b9cd034276ca&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b",
+    "rhayssa": "https://app.powerbi.com/reportEmbed?reportId=ec40c4a7-c4a8-4fa1-bcda-a08941aa761a&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b",
     "marcus": "https://app.powerbi.com/reportEmbed?reportId=6954fefd-ee4e-499a-8278-299d5d148eca&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b",
     "samuel": "https://app.powerbi.com/reportEmbed?reportId=b1ed3c24-a20e-440e-831f-1fb90bada28c&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b",
     "maykon": "https://app.powerbi.com/reportEmbed?reportId=3e45810d-d4ed-4b0d-949e-96a61ef8f237&autoAuth=true&ctid=425c7c8c-859b-4c1b-9c2a-b609c6a8e14b",
